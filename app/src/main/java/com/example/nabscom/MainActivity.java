@@ -1,63 +1,86 @@
 package com.example.nabscom;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.os.Bundle;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-import java.util.ArrayList;
-import java.util.List;
+import android.util.Log;
+import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
-    private RecyclerView productRecycler;
-    private ProductAdapter myProductAdapter;
-    private DatabaseReference mDatabase;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-    private FirebaseDatabase mFirebaseInstance;
-    private List<Product> mProductList = new ArrayList<>();
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+
+    private static final String TAG = "MainActivity";
+    private BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initView();
+        bottomNavigationView = findViewById(R.id.bottom_nav_view);
+        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        overridePendingTransition(R.anim.slide_in,R.anim.slide_in);
+        initFrag();
+    }
+    private  void initBottomNavView(){
+        Log.d(TAG, "initBottomNavView: Initializing the bottom navigation view");
+        bottomNavigationView.clearAnimation();
     }
 
-    private void initView() {
-        mFirebaseInstance = FirebaseDatabase.getInstance();
-        mDatabase = mFirebaseInstance.getReference("traveldeals");
-        productRecycler = findViewById(R.id.recycler);
+    private  void initFrag(){
+        HomeFragment homeFragment = new HomeFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.main_content_frame,homeFragment,getString(R.string.home_tag));
+        transaction.addToBackStack(getString(R.string.home_tag));
+        transaction.commit();
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(), 2, GridLayoutManager.HORIZONTAL, false);
-        gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
-            @Override
-            public int getSpanSize(int position) {
-                return position % 3 == 2 ? 2 : 1;
-            }
-        });
-        productRecycler.setLayoutManager(gridLayoutManager);
-        mDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                mProductList.clear();
-                for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()) {
-                    Product product = dataSnapshot1.getValue(Product.class);
-                    mProductList.add(product);
-                }
-                myProductAdapter = new ProductAdapter(MainActivity.this, mProductList);
-                productRecycler.setAdapter(myProductAdapter);
-                myProductAdapter.notifyDataSetChanged();
-
-            }
-
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
     }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.home:
+                Log.d(TAG, "onNavigationItemSelected: homeFragmentSelected");
+
+                HomeFragment homeFragment = new HomeFragment();
+                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.main_content_frame,homeFragment,getString(R.string.home_tag));
+                transaction.addToBackStack(getString(R.string.home_tag));
+                transaction.commit();
+
+                item.setChecked(true);
+                break;
+            case R.id.category:
+                Log.d(TAG, "onNavigationItemSelected: Category Fragment selected");
+
+                CategoryFragment categoryFragment = new CategoryFragment();
+                FragmentTransaction transaction1 = getSupportFragmentManager().beginTransaction();
+                transaction1.replace(R.id.main_content_frame,categoryFragment,getString(R.string.home_tag));
+                transaction1.addToBackStack(getString(R.string.home_tag));
+                transaction1.commit();
+
+                item.setChecked(true);
+                break;
+            case R.id.contact:
+                Log.d(TAG, "onNavigationItemSelected: Contacts Fragment Selected");
+                item.setChecked(true);
+                
+        }
+        return false;
+    }
+
+//    @Override
+//    public void inflateViewCategoryFragment(Product product) {
+//        CategoryFragment categoryFragment = new CategoryFragment();
+//
+//        Bundle args = new Bundle();
+//        args.putParcelable(getString(R.string.myProduct),product);
+//        categoryFragment.setArguments(args);
+//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+//        transaction.replace(R.id.main_content_frame,categoryFragment,"Category Fragment");
+//        transaction.addToBackStack("Category Fragment");
+//        transaction.commit();
+//
+//    }
 }

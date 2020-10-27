@@ -23,6 +23,7 @@ import java.util.List;
 public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {
     private List<Product> mProductList = new ArrayList<>();
     private Context mContext;
+    private IFragCommunicate mIFragCommunicate;
 
     public ProductAdapter(Context mContext, List<Product> myProductList) {
         this.mContext = mContext;
@@ -41,6 +42,7 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
     public void onBindViewHolder(@NonNull ProductViewHolder holder, int position) {
         Product product = mProductList.get(position);
         holder.bind(product);
+//        mIFragCommunicate.inflateViewCategoryFragment(mProductList.get(position));
 
 
     }
@@ -49,6 +51,12 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
     public int getItemCount() {
         return mProductList.size();
     }
+
+//    @Override
+//    public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
+//        super.onAttachedToRecyclerView(recyclerView);
+//        mIFragCommunicate =(IFragCommunicate) mContext;
+//    }
 
     public class ProductViewHolder extends RecyclerView.ViewHolder  implements View.OnClickListener{
         TextView tvTitle;
