@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.mobile.nabscom.ProductDisplay"
+        android:label="@string/app_name"
+        tools:layout="@layout/producthome" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.mobile.nabscom.ProductCategoryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/productcategory" />
+
+    <fragment
+    android:id="@+id/navigation_customer"
+    android:name="com.mobile.nabscom.CustomerCareFragment"
+    android:label="@string/menu_customer"
+    tools:layout="@layout/customercare" />
+
+    <fragment
+        android:id="@+id/navigation_authenticate"
+        android:name="com.mobile.nabscom.AuthenticateFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/account_authenticate" >
+
+    <action
+        android:id="@+id/account_to_login"
+        app:destination="@id/login" />
+        <action
+            android:id="@+id/account_to_sign_up"
+            app:destination="@id/sign_up" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.mobile.nabscom.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/login" />
+    <fragment
+        android:id="@+id/sign_up"
+        android:name="com.mobile.nabscom.Sign_upFragment"
+        android:label="@string/signUp"
+        tools:layout="@layout/signup" />
+</navigation>

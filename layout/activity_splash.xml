@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="219dp"
+            android:layout_height="165dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon" />
+
+        <TextView
+            android:id="@+id/track_txt"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="272dp"
+            android:layout_height="386dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text="@string/slogan"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</FrameLayout>
