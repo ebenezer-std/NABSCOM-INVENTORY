@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156394100065",
+    "firebase_url": "https://nabscom-1c3ed.firebaseio.com",
+    "project_id": "nabscom-1c3ed",
+    "storage_bucket": "nabscom-1c3ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156394100065:android:b5ad2e007b96d11a716120",
+        "android_client_info": {
+          "package_name": "com.example.nabscom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156394100065-k2rj5k62498so9tpm10gkelnqhd70a59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nabscom",
+            "certificate_hash": "51b29a6e07d86a2290d09538470e0e72c613e6ef"
+          }
+        },
+        {
+          "client_id": "156394100065-j6kks66kj980cmdl105fqqqjc5sb35sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuBvlfRHRjybfNOWQ5Lhp2wNn39GGdAf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156394100065-j6kks66kj980cmdl105fqqqjc5sb35sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
