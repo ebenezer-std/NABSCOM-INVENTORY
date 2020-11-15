@@ -1,0 +1,111 @@
+{
+  "fruits" : {
+    "Dghgh^6556ghbnnk" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://images-prod.healthline.com/hlcmsresource/images/AN_images/benefits-of-oranges-1296x728-feature.jpg",
+      "title" : "Oranges",
+      "price" : "20/="
+    },
+     "Dghgh^6556ghbnnk" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://images-prod.healthline.com/hlcmsresource/images/AN_images/benefits-of-oranges-1296x728-feature.jpg",
+      "title" : "Mangoes",
+      "price" : "20/="
+    },
+    "gfffTYgvfg0889Bnvv" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/apples_2.jpg?h=65b39431&itok=MoJheg5x",
+      "title" : "Apples",
+      "price " : "30/="
+    }
+  },
+  "pizzaInn" : {
+    "Fjhhh&jkjgH^&70j" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://64.media.tumblr.com/250aec6acd57c28d38199f3d55fa36e8/tumblr_pfbhkt6QNx1ut5gsto1_1280.jpg",
+      "title" : "Ugali Fry",
+      "price" : "600/="
+    },
+    "SDFGerttty&656456ljjhJ" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://www.kannammacooks.com/wp-content/uploads/masala-fish-fry-recipe-ayala-meen-Mackerel-fry-8.jpg",
+      "title" : "Fish Fry",
+      "price" : "200/="
+    },
+    "jhjhjhYUnbn&878" : {
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at venenatis diam, id semper leo. Aliquam rutrum vestibulum lectus, nec tincidunt sem placerat vel. Sed consequat turpis ac posuere pharetra. Mauris volutpat nibh iaculis egestas interdum. Donec volutpat, libero in rutrum mollis, massa erat cursus magna, facilisis tempor dolor magna nec orci. Nunc luctus varius semper. Sed fermentum, justo in rutrum pulvinar, libero diam maximus est, vitae eleifend magna augue eu leo. Aliquam ante velit, vehicula quis sollicitudin ac, rutrum nec tortor. Curabitur tempor malesuada consequat.",
+      "imageUrl" : "https://cdn.shopify.com/s/files/1/0088/6518/5850/products/sandwich-smoked-meat_x700.jpg?v=1581356872",
+      "title" : "Smoked Meat",
+      "price" : "500/="
+    }
+  },
+  "accessories" : {
+    "-MK6CHLsku1Cnzh7oZ-H" : {
+      "description" : "70/=",
+      "id" : "-MK6CHLsku1Cnzh7oZ-H",
+      "imageUrl" : "https://cdn.mos.cms.futurecdn.net/78kzT5oZeDve55LifhMHZ3.jpg",
+      "price" : "580",
+      "title" : "samosa"
+    },
+    "RFHVN9VNNCNVVXNX" : {
+      "description" : "HiFi with amplified sound",
+      "imageUrl" : "https://nunuahub.co.ke/wp-content/uploads/2018/11/Tagwood-MP2176-Multimedia-Subwoofer-with-Bluetooth.jpg",
+      "price" : "2700 kshs",
+      "title" : "TagWood subwoofer"
+    },
+    "RTYKLUKH90967BNMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH90967BetMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH90967Bk5MVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH90967j5NMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH90967utNMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH909690BNMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH909kyloBNMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "RTYKLUKH99j967BNMVVB" : {
+      "description" : "Released 2020, August 21. 208g, 8.1mm thickness. Android 10, One UI 2.5. 128GB/256GB/512GB storage.",
+      "imageUrl" : "https://images.samsung.com/us/smartphones/galaxy-note20/Configurator/001-Carousel/Mo/001-common-assets/001-note20series-productimage-mo-720.jpg",
+      "price " : 500,
+      "title" : "samsung"
+    },
+    "WERTGH899VCBX B" : {
+      "description" : "ision Plus 32 Inch Digital TV · Vision Plus 32 Inch Android TV · Vision Plus 32” Frameless Android TV · Vision Plus 43 Inch Android TV ",
+      "imageUrl" : "https://visionplus.co.ke/wp-content/uploads/2019/09/hd-1.png",
+      "price" : "13,000 kshs",
+      "title" : "Vision Plus Television"
+    }
+  }
+}

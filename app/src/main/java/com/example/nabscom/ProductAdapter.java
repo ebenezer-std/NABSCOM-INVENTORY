@@ -67,7 +67,7 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
         public ProductViewHolder(@NonNull View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.title);
-            tvDescription = itemView.findViewById(R.id.description);
+//            tvDescription = itemView.findViewById(R.id.description);
             imageItem = (ImageView) itemView.findViewById(R.id.itemImage);
             tvPrice = itemView.findViewById(R.id.price);
 
@@ -77,7 +77,7 @@ public class ProductAdapter extends  RecyclerView.Adapter<ProductAdapter.Product
 
         public void bind(Product product) {
             tvTitle.setText(product.getTitle());
-            tvDescription.setText(product.getDescription());
+//            tvDescription.setText(product.getDescription());
             tvPrice.setText(product.getPrice());
             showImage(product.getImageUrl());
 

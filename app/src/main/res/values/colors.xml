@@ -4,11 +4,10 @@
 <!--    <color name="colorPrimaryDark">#3700B3</color>-->
 <!--    <color name="colorAccent">#03DAC5</color>-->
 
-    <color name="primaryLightColor">#ef9a9a</color>
-    <color name="primaryColor">#ffcccb</color>
+    <color name="primaryColor">#ef9a9a</color>
+    <color name="primaryLightColor">#ffcccb</color>
     <color name="primaryDarkColor">#ba6b6c</color>
     <color name="primaryTextColor">#000000</color>
-    <color name="colorSecondary">#66bb6a</color>
     <color name="white">#FFFFFF</color>
     <color name="red">#ff0000</color>
 
