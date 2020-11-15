@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bottomNavigationView = findViewById(R.id.bottom_nav_view);
+
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         overridePendingTransition(R.anim.slide_in,R.anim.slide_in);
         initFrag();
